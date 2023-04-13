@@ -10,15 +10,14 @@ import { getFirestore, collection } from
 import { doc, setDoc } from "firebase/firestore";
 
 const firebaseConfig = {
-    apiKey: "AIzaSyBKXg5qcyOGcG8GcUiS08_22Qwfkbhd2PE",
-    authDomain: "ipcreactproject.firebaseapp.com",
-    databaseURL: "https://ipcreactproject-default-rtdb.firebaseio.com",
-    projectId: "ipcreactproject",
-    storageBucket: "ipcreactproject.appspot.com",
-    messagingSenderId: "626917250462",
-    appId: "1:626917250462:web:479601a42875852761b28f",
-    measurementId: "G-3YSC6EZL4P"
-  };
+    apiKey: "AIzaSyDIolHknhTZ6R4jGrv3niHLc1NzGG47Gj0",
+    authDomain: "ipcreactcrud.firebaseapp.com",
+    projectId: "ipcreactcrud",
+    storageBucket: "ipcreactcrud.appspot.com",
+    messagingSenderId: "500523970988",
+    appId: "1:500523970988:web:fa5754b1ff7f5f89cc4a09",
+    measurementId: "G-18X86CWB72"
+  }
 
 const app = initializeApp(firebaseConfig);
 const database = getFirestore(app);
