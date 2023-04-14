@@ -83,6 +83,6 @@ api.post('/recordTemp', (req, res) => {
 });
 
 //Deploying the listener
-const port = process.env.PORT || 8080;
+const port = process.env.PORT || 3000;
 api.listen(port, () => console.log(`Express server listening on port
 ${port}`));
